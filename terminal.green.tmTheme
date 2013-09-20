@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>comment</key>
+	<string>Tony Legrone</string>
+	<key>name</key>
+	<string>Terminal (Green)</string>
+	<key>semanticClass</key>
+	<string>terminal.green</string>
+	<key>colorSpaceName</key>
+	<string>sRGB</string>
+	<key>gutterSettings</key>
+	<dict>
+		<key>background</key>
+		<string>#1c4811</string>
+		<key>divider</key>
+		<string>#34373c</string>
+		<key>foreground</key>
+		<string>#a6a8a6</string>
+		<key>selectionBackground</key>
+		<string>#474b52</string>
+		<key>selectionForeground</key>
+		<string>#cfd2d0</string>
+	</dict>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>GitGutter deleted</string>
+			<key>scope</key>
+			<string>markup.deleted.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#49a732</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter changed</string>
+			<key>scope</key>
+			<string>markup.changed.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#49a732</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter inserted</string>
+			<key>scope</key>
+			<string>markup.inserted.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#49a732</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#071404</string>
+				<key>caret</key>
+				<string>#6cf04c</string>
+				<key>foreground</key>
+				<string>#6cf04c</string>
+				<key>invisibles</key>
+				<string>#49a732</string>
+				<key>lineHighlight</key>
+				<string>#1c4811</string>
+				<key>selection</key>
+				<string>#1c4811</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Text</string>
+			<key>scope</key>
+			<string>variable.parameter.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#49a732</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Comments</string>
+			<key>scope</key>
+			<string>comment, punctuation.definition.comment</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#49a732</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Punctuation</string>
+			<key>scope</key>
+			<string>punctuation.definition.string, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#49a732</string>
+			</dict>
+		</dict>
+	</array>
+	<key>uuid</key>
+	<string>ce6d6af0-21a3-11e3-8224-0800200c9a66</string>
+</dict>
+</plist>
